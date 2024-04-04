@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KotlinIntlAndroid</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="invalid_phone_number">Enter a valid phone number</string>
+    <string name="valid_phone_number">All phone numbers are valid!</string>
+</resources>
