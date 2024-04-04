@@ -97,3 +97,7 @@ This library was built for these reasons:
  ## Unit Tests
 
  Run `./gradlew :kotlin-intl-android:test` and/or `./gradlew :kotlin-intl-android:connectedDebugAndroidTest`
+
+## Coming Soon
+
+* Maven hosting for releases
