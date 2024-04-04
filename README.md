@@ -1,4 +1,4 @@
-kotlin-intl-android
+kotlin-intl-android (Kotlin International Android) or kia for short
 ===================
 
 kotlin-intl-android is an Android kotlin library that provides internationalization features/views.
