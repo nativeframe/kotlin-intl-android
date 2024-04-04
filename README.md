@@ -1,7 +1,7 @@
 kotlin-intl-android
 ===================
 
-kotlin-intl-android is an Kotlin/Android library that provides internationalization features/views.
+kotlin-intl-android is an Android kotlin library that provides internationalization features/views.
 
 ![alt text](https://firebasestorage.googleapis.com/v0/b/images-de159.appspot.com/o/kotlin-intl-android-sample.gif?alt=media&token=edaa9b0a-73a8-4cc3-acba-426cc63ab94d "Sample")
 
@@ -96,4 +96,4 @@ This library was built for these reasons:
 
  ## Unit Tests
 
- Run 
+ Run `./gradlew :kotlin-intl-android:test` and/or `./gradlew :kotlin-intl-android:connectedDebugAndroidTest`
