@@ -9,7 +9,7 @@ Most important:
 
  * `PhoneNumberEditText` : includes EditText alongside the flags spinner
  * `PhoneNumberInputLayout` : includes a TextInputLayout from Google's material library alongside the flags spinner 
- * `PhoneNumberFieldOptions`: Phone field options/configuration like enabling automatic phone number formatting
+ * `PhoneNumberFieldOptions`: Phone field options/configuration like enabling automatic phone number formatting. For example: `PhoneNumberFieldOptions(enableLog = false, enableAutoFormatting = true, autoFormattingAtLength = 9)`
  
 ## Features
  
