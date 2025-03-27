@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:dropDownWidth="@dimen/spinner_height"
-        android:popupBackground="@color/pf_white" />
+        android:popupBackground="@color/kia_background" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/phoneFieldTextInputLayout"
