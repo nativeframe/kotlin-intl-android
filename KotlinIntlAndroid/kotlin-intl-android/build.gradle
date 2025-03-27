@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         minSdk 21
-        versionName "1.0.0"
+        versionName "1.1.0"
 
         setProperty("archivesBaseName", "kotlin-intl-android-v$versionName")
 

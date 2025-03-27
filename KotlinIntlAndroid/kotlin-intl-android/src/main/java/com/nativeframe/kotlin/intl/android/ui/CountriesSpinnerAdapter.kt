@@ -19,10 +19,14 @@ import com.nativeframe.kotlin.intl.android.R
  *
  * @param context Context
  * @param countries Countries
+ * @param showCountryName Whether to show the country name
+ * @param showCountryCode Whether to show the country code
  */
 class CountriesSpinnerAdapter(
     context: Context,
-    countries: Array<Country>
+    countries: Array<Country>,
+    private val showCountryName: Boolean = true,
+    private val showCountryCode: Boolean = true
 ) : ArrayAdapter<Country>(context, R.layout.kia_view_country, R.id.name, countries),
     SpinnerAdapter {
     private val inflater = LayoutInflater.from(context)
@@ -59,8 +63,15 @@ class CountriesSpinnerAdapter(
         }
         val country = getItem(position)!!
         viewHolder.flag!!.setImageResource(country.drawable)
-        viewHolder.name!!.text = country.displayName
-        viewHolder.dialCode!!.text = country.dialCode.toString()
+        viewHolder.name?.let {
+            it.text = country.displayName
+            it.visibility = if (showCountryName) View.VISIBLE else View.GONE
+        }
+        viewHolder.dialCode?.let {
+            it.text = country.dialCode.toString()
+            it.visibility = if (showCountryCode) View.VISIBLE else View.GONE
+        }
+
         return cView!!
     }
 
